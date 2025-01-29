@@ -55,4 +55,12 @@ A Python-based job search data extraction tool that demonstrates web scraping, d
 - Requests
 
 ## Sample Output
-[]
+- **Job Search Results Processing** <br>
+![Job Search Results](https://github.com/ashleysally00/job-search-web-scraper-Indeed/blob/main/snapshot_of_output1.png)
+
+- **Job Posting Test Cases** <br>
+![Job Posting Tests](https://github.com/ashleysally00/job-search-web-scraper-Indeed/blob/main/snapshot_of_output2.png)
+
+- **CSV Data Export** <br>
+![CSV Export](https://github.com/ashleysally00/job-search-web-scraper-Indeed/blob/main/snapshot_CSV.png)
+
