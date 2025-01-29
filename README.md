@@ -26,6 +26,31 @@ A Python-based job search data extraction tool that demonstrates web scraping, d
 
 ## Technical Challenges & Solutions
 
+HTML Parser Selection
+The project uses Python's built-in HTML parser. 
+
+- It's built into Python (no additional installations needed)
+- It's good enough for most web scraping tasks
+- It's more lenient with malformed HTML than some other parsers
+
+
+```python
+import requests
+from bs4 import BeautifulSoup
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Connection': 'keep-alive',
+}
+
+page = requests.get(url, headers=headers)
+soup = BeautifulSoup(page.content, 'html.parser')
+
+# Find job listings using the parser
+job_cards = soup.find_all('div', class_='job_seen_beacon')
+```
 ### Web Scraping Limitations
 - Challenge: Indeed's anti-scraping measures blocked direct scraping
 - Solution: Implemented a sample data version to demonstrate functionality
