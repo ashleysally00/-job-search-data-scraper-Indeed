@@ -1,5 +1,5 @@
 
-# Job Search Web Scraper Indeed
+# Job Search Web Scraper for Indeed
 
 ## Project Origins
 I made this while doing the "Scrape and analyze data analyst job requirements with Python" guided project on Coursera. You can create your own version of the project for free by enrolling [here](https://www.coursera.org/learn/scrape-job-postings-data-analyst/home/module/1).
