@@ -28,7 +28,8 @@ A Python-based job search data extraction tool that demonstrates web scraping, d
 
 ### HTML Parser Selection
 
-The project uses Python's built-in HTML parser. 
+The project uses BeautifulSoup4 (a Python library for pulling data out of HTML files) together with Python's built-in 'html.parser'.
+This parser can be good to use for a few reasons:
 
 - It's built into Python (no additional installations needed)
 - It's good enough for most web scraping tasks
