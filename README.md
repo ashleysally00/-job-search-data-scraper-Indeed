@@ -26,7 +26,8 @@ A Python-based job search data extraction tool that demonstrates web scraping, d
 
 ## Technical Challenges & Solutions
 
-HTML Parser Selection
+### HTML Parser Selection
+
 The project uses Python's built-in HTML parser. 
 
 - It's built into Python (no additional installations needed)
