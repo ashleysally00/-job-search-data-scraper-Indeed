@@ -2,7 +2,7 @@
 # Job Search Web Scraper Indeed
 
 ## Project Origins
-I amde this with the "Scrape and analyze data analyst job requirements with Python" guided project on Coursera. You can create your own version of the project for free by enrolling [here](https://www.coursera.org/learn/scrape-job-postings-data-analyst/home/module/1).
+I made this while doing the "Scrape and analyze data analyst job requirements with Python" guided project on Coursera. You can create your own version of the project for free by enrolling [here](https://www.coursera.org/learn/scrape-job-postings-data-analyst/home/module/1).
 
 ## Project Overview
 A Python-based job search data extraction tool that demonstrates web scraping, data processing, and CSV file handling. The project was developed using Jupyter Notebook and focuses on scraping job postings from Indeed.com.
